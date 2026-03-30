@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Product Admin Dashboard</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					extend: {
+						colors: {
+							brand: {
+								50: "#eef6ff",
+								100: "#d9eaff",
+								500: "#0f62fe",
+								700: "#0043ce",
+								900: "#061727",
+							},
+						},
+					},
+				},
+			}
+		</script>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			body {
+				font-family: "Space Grotesk", sans-serif;
+			}
+		</style>
+	</head>
+	<body class="min-h-screen bg-slate-100">
+		<div id="root"></div>
+
+		<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+		<script
+			crossorigin
+			src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+		></script>
+		<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+		<script type="text/babel" src="./ui-components.js"></script>
+		<script type="text/babel" src="./script.js"></script>
+	</body>
+</html>

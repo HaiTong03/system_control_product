@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "checkJs": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "types": ["node"],
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitOverride": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["frontend/src/*"]
+    }
+  },
+  "include": [
+    "server.js",
+    "config/**/*.js",
+    "controller/**/*.js",
+    "models/**/*.js",
+    "routes/**/*.js",
+    "middleware/**/*.js",
+    "frontend/src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+
+}
