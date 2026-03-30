@@ -259,7 +259,7 @@ export default function LoginPage() {
                         : "text-[#6e4b31] hover:bg-[#ebdbc6]"
                   }`}
                 >
-                  Sign in
+                  Sign-in
                 </button>
                 <button
                   type="button"
